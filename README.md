@@ -8,9 +8,10 @@ For now i know :
 
 1. JavaScript
 1. NodeJs
-1. Repl.it
+1. C++
 1. HTML5
 1. CSS3
 1. CHALK
+1. Repl.it
 
 
