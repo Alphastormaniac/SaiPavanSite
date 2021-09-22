@@ -5,12 +5,13 @@ body {
     margin: 0px;
 }
 
-:root{
+:root {
     --primary-color: #3B82F6;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .list-nonbullet{
 =======
@@ -18,15 +19,19 @@ body {
 
 .list-nonbullet {
 >>>>>>> Stashed changes
+=======
+.list-nonbullet {
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
     list-style: none;
     padding-inline-start: 0px;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 1rem ;
+    display: inline-block;
+    padding: 0rem 1rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .container{
 =======
@@ -34,14 +39,18 @@ body {
 
 .container {
 >>>>>>> Stashed changes
+=======
+.container {
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
     padding: 0rem 1rem;
 }
 
-.container-centre{
+.container-centre {
     max-width: 700px;
     margin: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .link{
 =======
@@ -49,12 +58,17 @@ body {
 
 .link {
 >>>>>>> Stashed changes
+=======
+.link {
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
     text-decoration: none;
     box-sizing: border-box;
     padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     color: white;
     display: block;
@@ -64,7 +78,7 @@ body {
     text-align: center;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     display: block;
     max-width: 140px;
@@ -73,7 +87,9 @@ body {
     border: 1px solid var(--primary-color);
 }
 
-.navigation{
+/* navbar */
+
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -81,22 +97,25 @@ body {
 
 }
 
-.nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.nav-span{
+.nav-span {
     font-size: 2.5rem;
 }
 
-.nav-pills{
+.nav-pills {
     text-align: right;
     font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
 .navigation .link {
     color: white;
     text-align: left;
@@ -135,9 +154,16 @@ section{
     padding: 2rem;
 }
 
+<<<<<<< HEAD
 .section h1{
     text-align: center;
     padding: 2rem;
+=======
+.section h1,
+p {
+    text-align: center;
+    padding: 2rem
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
 }
 
 .ow{
@@ -155,17 +181,21 @@ section{
 
 }
 
+<<<<<<< HEAD
 .footer-header{
     font-size: large ;
     font-weight: bold ;
 }
 
+=======
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
 .footer .link{
     color: white;
 }
 
 .footer ul{
     padding-inline-start: 0px;
+<<<<<<< HEAD
 }
 
 .bout-me{
@@ -174,3 +204,6 @@ section{
     max-width: auto;
 }
 >>>>>>> Stashed changes
+=======
+}
+>>>>>>> 59c1f72fbafc3902d8ad7a7cfed2e91a3ef6ce40
