@@ -5,37 +5,39 @@ body {
     margin: 0px;
 }
 
-:root{
+:root {
     --primary-color: #3B82F6;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
 
-.list-nonbullet{
+.list-nonbullet {
     list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 1rem ;
-}
-
-.container{
+    display: inline-block;
     padding: 0rem 1rem;
 }
 
-.container-centre{
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-centre {
     max-width: 700px;
     margin: auto;
 }
 
-.link{
+.link {
     text-decoration: none;
     box-sizing: border-box;
     padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     color: white;
     display: block;
@@ -44,7 +46,7 @@ body {
     margin: 1rem 1rem 1rem 0;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     display: block;
     max-width: 140px;
@@ -53,7 +55,9 @@ body {
     border: 1px solid var(--primary-color);
 }
 
-.navigation{
+/* navbar */
+
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -61,17 +65,83 @@ body {
 
 }
 
-.nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.nav-span{
+.nav-span {
     font-size: 2.5rem;
 }
 
-.nav-pills{
+.nav-pills {
     text-align: right;
     font-size: 1.5rem;
 }
 
+.navigation .link {
+    color: white;
+    text-align: left;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+/*header*/
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+/* sections */
+
+section{
+    padding: 2rem;
+}
+
+.section h1,
+p {
+    text-align: center;
+    padding: 2rem
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem ;
+
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
