@@ -5,9 +5,9 @@ body {
     margin: 0px;
 }
 
-:root{
+:root {
     /* #44b6f8 */
-    --primary-color: #f61009 ;  
+    --primary-color: #f61009;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
@@ -21,7 +21,7 @@ body {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 1rem ;
+    padding: 0rem 1rem;
 }
 
 /* container */
@@ -30,7 +30,7 @@ body {
     padding: 0rem 1rem;
 }
 
-.container-centre{
+.container-centre {
     max-width: 700px;
     margin: auto;
 }
@@ -44,7 +44,7 @@ body {
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     color: white;
     display: block;
@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     display: block;
     max-width: 140px;
@@ -65,7 +65,7 @@ body {
 }
 
 .link-primary:hover,
-.link-primary:active{
+.link-primary:active {
     background-color: #ff514b;
 }
 
@@ -75,7 +75,7 @@ body {
     color: white;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -83,16 +83,16 @@ body {
 
 }
 
-.nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.nav-span{
+.nav-span {
     font-size: 2.5rem;
 }
 
-.nav-pills{
+.nav-pills {
     text-align: right;
     font-size: 1.5rem;
 }
@@ -110,7 +110,6 @@ body {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
 
 }
 
@@ -119,6 +118,7 @@ body {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 5rem;
 }
 
 .hero-heading {
@@ -132,26 +132,30 @@ body {
 }
 
 /* spaces */
-.margin-md{
+.margin-md {
     margin: 2rem;
+}
+
+.button {
+    margin-bottom: 1.5rem;
 }
 
 /* sections */
 
-section{
+section {
     padding: 2rem;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
     padding: 2rem;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
-.text{
+.text {
     text-align: center;
 }
 
@@ -161,29 +165,29 @@ section{
 
 /* footers */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem ;
+    border-top-right-radius: 1rem;
 
 }
 
-.footer-header{
-    font-size: large ;
-    font-weight: bold ;
+.footer-header {
+    font-size: large;
+    font-weight: bold;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.bout-me{
+.bout-me {
     padding: 2rem;
     margin: auto;
     max-width: auto;
@@ -198,31 +202,31 @@ section{
 }
 
 .fa-github:link,
-.fa-github:hover{
+.fa-github:hover {
     color: #495057;
 }
 
 .fa-twitter:link,
-.fa-twitter:hover{
+.fa-twitter:hover {
     color: #1da1f2
 }
 
 .fa-linkedin-in:link,
-.fa-linkedin-in:hover{
+.fa-linkedin-in:hover {
     color: #0a66c2;
 }
 
 .fa-instagram:link,
-.fa-instagram:hover{
+.fa-instagram:hover {
     color: #c32aa3;
 }
 
 .fa-snapchat-ghost:link,
-.fa-snapchat-ghost:hover{
+.fa-snapchat-ghost:hover {
     color: #fffc00;
 }
 
-.site-header{
+.site-header {
     display: block;
     text-align: center;
     padding-top: 10rem;
@@ -239,6 +243,10 @@ section{
     padding: 3rem;
 }
 
-.body-color{
+.body-color {
     background-color: #fffc00;
+}
+
+.para {
+    padding-bottom: 1rem;
 }
