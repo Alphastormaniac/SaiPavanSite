@@ -215,3 +215,24 @@ section{
 .fa-snapchat-ghost:hover{
     color: #fffc00;
 }
+
+.site-header{
+    display: block;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.site-header-content {
+    margin: 10px;
+}
+
+.snap-code {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 3rem;
+}
+
+.body-color{
+    background-color: #fffc00;
+}
