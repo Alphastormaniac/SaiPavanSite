@@ -110,6 +110,7 @@ body {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 
 }
 
@@ -128,6 +129,11 @@ body {
 
 .heading-inverted {
     color: var(--primary-color);
+}
+
+/* spaces */
+.margin-md{
+    margin: 2rem;
 }
 
 /* sections */
