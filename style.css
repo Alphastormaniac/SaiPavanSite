@@ -272,6 +272,6 @@ section {
 }
 
 .far, .fas{
-    padding-right: 2rem;
-    color: #ffbbb8;
+    padding-right: 1rem;
+    color: var(--primary-color);
 }
