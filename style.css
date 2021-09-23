@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
     margin: 0px;
 }
 
@@ -79,7 +79,7 @@ body {
 .link-secondary:hover,
 .link-secondary:active {
     background-color: #ffbbb8;
-    color: white;
+    color: var(--primary-color);
 }
 
 .navigation {
@@ -269,4 +269,9 @@ section {
 
 .white-text{
     color: ivory;
+}
+
+.far, .fas{
+    padding-right: 2rem;
+    color: #ffbbb8;
 }
