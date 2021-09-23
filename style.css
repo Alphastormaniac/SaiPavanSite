@@ -250,3 +250,12 @@ section {
 .para {
     padding-bottom: 1rem;
 }
+
+.fa-github,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram,
+.fa-snapchat-ghost{
+    transition:color 0.2s;
+    font-size: 1.5rem;
+}
