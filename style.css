@@ -129,7 +129,7 @@ body {
 }
 
 .hero-heading {
-    color: var(--dark-gray);
+    color: #fdfdff;
     padding-top: 1rem;
     text-align: center;
 }
