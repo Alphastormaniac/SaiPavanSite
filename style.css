@@ -82,6 +82,8 @@ body {
     color: var(--primary-color);
 }
 
+/* navbar */
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -139,6 +141,7 @@ body {
 }
 
 /* spaces */
+
 .margin-md {
     margin: 2rem;
 }
@@ -165,10 +168,6 @@ section {
 .text {
     text-align: center;
 }
-
-
-
-
 
 /* footers */
 
@@ -198,14 +197,6 @@ section {
     padding: 2rem;
     margin: auto;
     max-width: auto;
-}
-
-.fab {
-    padding-top: 2rem;
-    width: 1rem;
-    font-size: 2rem;
-    display: inline-block;
-    height: 1rem;
 }
 
 .fa-github:link,
@@ -271,7 +262,31 @@ section {
     color: ivory;
 }
 
-.far, .fas{
+.fab-icons{
     padding-right: 1rem;
     color: var(--primary-color);
+}
+
+.social-icons{
+    padding-top: 2rem;
+    width: 1rem;
+    font-size: 2rem;
+    display: inline-block;
+    height: 1rem;
+}
+
+.fa-edge{
+    color:#3277BC ;
+}
+
+.fa-ticket-alt{
+    color: #f7d655;
+}
+
+.fa-digital-tachograph{
+    color: #6920b0
+}
+
+.fa-question-circle{
+    color: green;
 }
