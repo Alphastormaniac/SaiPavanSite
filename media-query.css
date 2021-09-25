@@ -12,22 +12,22 @@
 } */
 
 
-@media only screen and (max-width:479px){
-    
-    
-    .navigation{
+@media only screen and (max-width:479px) {
+
+
+    .navigation {
         display: block;
         max-width: 100%;
     }
 
-    .nav-pills{
+    .nav-pills {
         display: flex;
         font-size: 1.2rem;
         padding-left: 1rem;
         text-align: center;
     }
 
-    .section{
+    .section {
         max-width: 900px;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -37,13 +37,13 @@
         max-width: 100%;
     }
 
-    .social-links{
+    .social-links {
         display: inline-block;
         text-align: center;
         padding-top: 1rem;
     }
 
-    .footer-icons{
+    .footer-icons {
         font-size: 1.5rem;
         margin-block-end: none;
     }
