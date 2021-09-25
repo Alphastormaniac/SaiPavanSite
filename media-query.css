@@ -17,7 +17,10 @@
         width: 100%;
     }
 
-    .list-item-inline{
-        display: inline-block;
+    .nav-pills{
+        text-align: center;
+        font-size: 1rem;
     }
+
+    
 }
