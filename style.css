@@ -249,11 +249,7 @@ section {
     padding-bottom: 1rem;
 }
 
-.fa-github,
-.fa-twitter,
-.fa-linkedin-in,
-.fa-instagram,
-.fa-snapchat-ghost{
+.footer-icons{
     transition:color 0.2s;
     font-size: 1.5rem;
 }
