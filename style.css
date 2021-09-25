@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
     text-rendering: optimizeLegibility;
 }
@@ -112,7 +112,7 @@ body {
 .nav-pills {
     text-align: right;
     font-size: 1.5rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .navigation .link {
@@ -141,7 +141,8 @@ body {
 
 .hero-heading {
     color: #fdfdff;
-    padding-top: 1rem;
+    margin: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -174,8 +175,10 @@ section {
     background-color: var(--off-white);
 }
 
-.text {
+.tech-deets {
     text-align: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 /* footers */
