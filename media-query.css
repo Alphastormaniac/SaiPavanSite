@@ -15,10 +15,6 @@
 @media only screen and (max-width:479px){
     
     
-    .container{
-        display: block;
-        max-width: 100%;
-    }
     .navigation{
         display: block;
         max-width: 100%;
@@ -50,10 +46,6 @@
     .footer-icons{
         font-size: 1.5rem;
         margin-block-end: none;
-    }
-
-    .list-nonbullet{
-        text-align: center;
     }
 
     .foot-li {
