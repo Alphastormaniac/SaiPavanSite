@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
@@ -43,11 +36,13 @@ body {
 
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-centre {
     max-width: 700px;
     margin: auto;
+    
 }
 
 
@@ -154,6 +149,7 @@ body {
 
 .margin-md {
     margin: 2rem;
+    
 }
 
 .button {
@@ -289,9 +285,12 @@ section {
 }
 
 .fa-ticket-alt{
-    color: #f7d655;
+    color: rgb(255, 183, 0);
 }
 
+.fa-language {
+    color: yellow;
+}
 .fa-digital-tachograph{
     color: #6920b0
 }
