@@ -14,12 +14,14 @@
 
 @media only screen and (max-width:479px){
     
-    html{
+    
+    .container{
+        display: block;
         max-width: 100%;
     }
-
     .navigation{
-        max-width: 700px;
+        display: block;
+        max-width: 100%;
     }
 
     .nav-pills{
@@ -40,7 +42,7 @@
     }
 
     .social-links{
-        display: flex;
+        display: inline-block;
         text-align: center;
         padding-top: 1rem;
     }
@@ -51,6 +53,11 @@
     }
 
     .list-nonbullet{
+        text-align: center;
+    }
+
+    .foot-li {
+        padding: 0 2px;
         text-align: center;
     }
 }

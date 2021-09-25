@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 body {
     font-family: 'Nanum Gothic Coding', monospace;
     margin: 0px;
+    text-rendering: optimizeLegibility;
 }
 
 .bgBody{
@@ -104,6 +112,7 @@ body {
 .nav-pills {
     text-align: right;
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 .navigation .link {
@@ -252,6 +261,7 @@ section {
 .footer-icons{
     transition:color 0.2s;
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 .white-text{
