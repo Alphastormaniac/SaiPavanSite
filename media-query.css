@@ -17,7 +17,7 @@
     .nav-pills{
         display: flex;
         text-align: center;
-        font-size: 0.95rem;
+        font-size: 1.2rem;
     }
 
     .section{
@@ -25,4 +25,15 @@
         padding-right: 1rem;
         padding-left: 1rem;
     }
+
+    .hero-img {
+        max-width: 100%;
+    }
+
+    .social-links{
+        display: flex;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
 }
