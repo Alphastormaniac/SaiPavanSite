@@ -107,7 +107,6 @@ body {
 .nav-pills {
     text-align: right;
     font-size: 1.5rem;
-    padding: 1rem;
 }
 
 .navigation .link {
@@ -148,8 +147,7 @@ body {
 /* spaces */
 
 .margin-md {
-    margin: 2rem;
-    
+    margin: 2rem; 
 }
 
 .button {
@@ -232,6 +230,20 @@ section {
     color: #fffc00;
 }
 
+.footer-icons{
+    transition:color 0.2s;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+.snap-code {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 3rem;
+}
+
 .site-header {
     display: block;
     text-align: center;
@@ -242,13 +254,6 @@ section {
     margin: 10px;
 }
 
-.snap-code {
-    height: 200px;
-    width: 200px;
-    align-self: center;
-    padding: 3rem;
-}
-
 .body-color {
     background-color: #fffc00;
 }
@@ -257,11 +262,7 @@ section {
     padding-bottom: 1rem;
 }
 
-.footer-icons{
-    transition:color 0.2s;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-}
+
 
 .white-text{
     color: ivory;
@@ -272,13 +273,6 @@ section {
     color: var(--primary-color);
 }
 
-.social-icons{
-    padding-top: 2rem;
-    width: 1rem;
-    font-size: 2rem;
-    display: inline-block;
-    height: 1rem;
-}
 
 .fa-edge{
     color:#3277BC ;
