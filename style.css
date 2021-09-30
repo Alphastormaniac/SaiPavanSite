@@ -291,7 +291,7 @@ section {
 }
 
 .fa-digital-tachograph{
-    color: #6920b0
+    color: rgb(255, 0, 255)
 }
 
 .fa-question-circle{
@@ -300,4 +300,28 @@ section {
 
 .fa-calculator{
     color: aquamarine;
+}
+
+.fa-baby{
+    color: peachpuff;
+}
+
+.fa-birthday-cake{
+    color: indianred;
+}
+
+.fa-money-check-alt{
+    color: greenyellow
+}
+
+.fa-shapes{
+    color: fuchsia;
+}
+
+.fa-trophy{
+    color: gold;
+}
+
+.fa-sign-language{
+    color: royalblue;
 }
