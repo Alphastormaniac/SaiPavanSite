@@ -207,12 +207,6 @@ section {
     padding-inline-start: 0px;
 }
 
-.bout-me {
-    padding: 2rem;
-    margin: auto;
-    max-width: auto;
-}
-
 .fa-github:link,
 .fa-github:hover {
     color: #495057;
@@ -270,11 +264,17 @@ section {
     padding-bottom: 1rem;
 }
 
-
-
 .white-text{
     color: ivory;
 }
+
+.bout-me {
+    padding: 2rem;
+    margin: auto;
+    max-width: auto;
+}
+
+/* fab icons */
 
 .fab-icons{
     padding-right: 1rem;
