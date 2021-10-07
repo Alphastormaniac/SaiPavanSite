@@ -7,9 +7,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-a{
-    margin: 0;
-}
+
 
 .bg-body{
     background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(img/bgPic.svg);
@@ -20,13 +18,12 @@ a{
 
 
 :root {
-    /* #44b6f8 */
     --primary-color: #f61009;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
 
-/* lists */
+/****LISTS*****/
 
 .list-nonbullet {
     list-style: none;
@@ -38,7 +35,7 @@ a{
     padding: 0rem 1rem;
 }
 
-/* container */
+/****CONTAINER*****/
 
 .container {
     padding: 0rem 1rem;
@@ -57,7 +54,7 @@ a{
 
 
 
-/*links*/
+/****LINKS*****/
 
 .link {
     text-decoration: none;
@@ -82,7 +79,6 @@ a{
     max-width: 140px;
     border-radius: 0.5rem;
     margin: 1rem auto;
-    /* margin: 1rem 1rem 1rem 0; */
     border: 2px solid var(--primary-color);
     text-align: center;
 }
@@ -98,7 +94,7 @@ a{
     color: white;
 }
 
-/* navbar */
+/****NAVIGATION*****/
 
 .navigation {
     background-color: var(--primary-color);
@@ -122,6 +118,11 @@ a{
     font-size: 1.5rem;
 }
 
+.nav-pills li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
 .navigation .link {
     color: white;
     text-align: left;
@@ -131,7 +132,7 @@ a{
     font-weight: bold;
 }
 
-/*header*/
+/****HEADER*****/
 
 .hero {
     padding: 1rem;
@@ -166,7 +167,7 @@ a{
     color: var(--primary-color);
 }
 
-/* spaces */
+/****SPACES*****/
 
 .margin-md {
     margin: auto; 
@@ -179,7 +180,7 @@ a{
 
 
 
-/* sections */
+/****SECTIONS*****/
 
 section {
     padding: 2rem;
@@ -204,7 +205,7 @@ section {
     margin-bottom: 3rem;
 }
 
-/* footers */
+/****FOOTER*****/
 
 .footer {
     background-color: var(--primary-color);
@@ -295,7 +296,7 @@ section {
     max-width: auto;
 }
 
-/* fab icons */
+/****FAB ICONS*****/
 
 .fab-icons{
     padding-right: 1rem;
