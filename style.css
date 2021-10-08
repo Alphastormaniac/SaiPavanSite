@@ -156,6 +156,17 @@ body {
     padding-bottom: 2rem;
 }
 
+.last-img{
+    padding-bottom: 0;
+}
+
+.last-heading{
+    color: #fdfdff;
+    padding-top: 0;
+    padding-top: 2rem;
+    text-align: center;
+}
+
 .hero-heading {
     color: #fdfdff;
     margin-top: 3rem;
