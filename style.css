@@ -160,10 +160,16 @@ body {
     padding-bottom: 0;
 }
 
+.project-heading{
+    color: #fdfdff;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
 .last-heading{
     color: #fdfdff;
-    padding-top: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
