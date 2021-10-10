@@ -60,6 +60,8 @@ body {
     text-decoration: none;
     box-sizing: border-box;
     padding: 0.5rem 1rem;
+    font-weight: 300;
+
 }
 
 .link-primary {
@@ -129,8 +131,14 @@ body {
 }
 
 .link-active {
-    font-weight: bold;
+    font-weight: 900;
 }
+
+.link:hover {
+    color: black;
+}
+
+
 
 /****HEADER*****/
 
