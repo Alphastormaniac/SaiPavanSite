@@ -132,10 +132,12 @@ body {
 
 .link-active {
     font-weight: 900;
+    pointer-events: none;
 }
 
 .link:hover {
     color: black;
+    font-weight: bold;
 }
 
 
