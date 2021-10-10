@@ -184,6 +184,10 @@ body {
     color: var(--primary-color);
 }
 
+.text-shadow{
+    text-shadow: 2px 2px red;
+}
+
 /****SPACES*****/
 
 .margin-md {
