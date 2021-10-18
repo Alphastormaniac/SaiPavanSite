@@ -142,6 +142,8 @@ body {
 
 
 
+
+
 /****HEADER*****/
 
 .hero {
@@ -196,6 +198,10 @@ body {
 
 .text-shadow{
     text-shadow: 2px 2px red;
+}
+
+.align{
+    text-align: left;
 }
 
 /****SPACES*****/
@@ -385,4 +391,8 @@ section {
 
 .fa-sign-language{
     color: royalblue;
+}
+
+.fab{
+    padding-right: 2rem;
 }
