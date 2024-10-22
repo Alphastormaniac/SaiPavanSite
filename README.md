@@ -2,7 +2,7 @@
 
 Hey! Welcome to my portfolio. It is still in the making!
 
-I am an Engineering student and am currently in my second year.
+I am AI automation engineer
 
 For now i know :
 
